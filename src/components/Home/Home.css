@@ -1,0 +1,59 @@
+#home {
+  padding: 1rem 6rem;
+  height: 755px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 255, 235, 1) 0%,
+    rgba(64, 64, 64, 1) 0%,
+    rgba(88, 129, 98, 1) 100%
+  );
+}
+.Intro_Hi {
+  color: antiquewhite;
+  font-size: 20px;
+  padding: 5rem 0 3rem 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Intro_Name {
+  font-size: 35px;
+  padding: 0 0 2rem 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Intro_ShortDesc {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: antiquewhite;
+  padding: 0 0 2rem 0;
+  opacity: 75%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.Intro_image {
+  margin: 4rem 0;
+}
+.Intro_Description {
+  width: 80%;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: antiquewhite;
+  opacity: 60%;
+}
+.Intro_Links_container {
+  margin: 1rem 0 0 0;
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+}
+.Intro_Links_container > div > a > img {
+  height: 30px;
+}
+.cv_btn {
+  background-color: transparent;
+  padding: 5px 35px;
+  color: orange;
+  border: 2px solid antiquewhite;
+  border-radius: 5px;
+  cursor: pointer;
+}

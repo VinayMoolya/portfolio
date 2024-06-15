@@ -1,0 +1,45 @@
+#skills {
+  padding: 1rem 6rem;
+  height: 755px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 255, 235, 1) 0%,
+    rgba(64, 64, 64, 1) 0%,
+    rgba(88, 129, 98, 1) 100%
+  );
+}
+.skills-title {
+  font-size: 30px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skill > img {
+  height: 90px;
+  width: 90px;
+}
+.skills-container {
+  display: flex;
+  justify-content: center;
+}
+.container-skill {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.skill {
+  border: 2px solid rgb(225, 213, 198, 0.55);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.skill > p {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skill > img {
+  border-radius: 5px;
+}
+.skill:hover {
+  animation: headShake;
+  animation-duration: 1s;
+}
